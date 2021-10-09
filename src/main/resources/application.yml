@@ -1,24 +1,2 @@
-vcap:
-  services:
-    cig-mq:
-      credentials:
-        amqp10:
-          url: amqps://2bb565b5-cb7c-46ca-abed-c5b0922b7483.messaging.eu10.mq.messagebroker.cloud.sap:7027
-          auth:
-            basic:
-              userName: AZWN3GUILBNAH7MHMOJG2GGJG2I
-              password: ODNUO2SWT5F3BJM34YNDCZ3BUA======
-             
-        management:
-          url: https://2bb565b5-cb7c-46ca-abed-c5b0922b7483.management.eu10.mq.messagebroker.cloud.sap
-          auth:
-            oauth2:
-              clientId: sb-standard-2bb565b5-cb7c-46ca-abed-c5b0922b7483!b50450|message-queuing-xsuaa-broker!b53026
-              clientSecret: cd9bb351-0b0b-407f-b0ec-724da31926d2$NzPhmCRr-sYWNyeYC7ovOzD8GnmWeuJiujK87AbMz5o=
-              grantType: client_credentials
-              tokenUrl: https://cig-cf-dev.authentication.eu10.hana.ondemand.com/oauth/token
-service-name:
-  mq: cig-mq
-
 server:
   port: 4444

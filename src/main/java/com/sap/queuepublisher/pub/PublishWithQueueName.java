@@ -1,4 +1,4 @@
-package com.utilityServices.mqpublisher.publisher;
+package com.sap.queuepublisher.pub;
 
 import javax.jms.Connection;
 import javax.jms.JMSException;

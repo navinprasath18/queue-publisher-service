@@ -1,4 +1,4 @@
-package com.utilityServices.mqpublisher.publisher;
+package com.sap.queuepublisher.pub;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

@@ -21,3 +21,20 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.DS_Store
+HELP.md
+target/
+.classpath
+.project
+.settings/
+/.metadata/
+/.recommenders/
+
+tests/test-output/
+
+*/bin/
+*.log
+.DS_Store
+/bin/
+bin
+*.rdb

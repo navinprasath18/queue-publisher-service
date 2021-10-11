@@ -9,6 +9,6 @@ public class PublisherData {
     private String url;
     private String username;
     private String password;
-    private String body;
+    private BodyJsonArray body;
 
 }
